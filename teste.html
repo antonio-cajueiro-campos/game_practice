@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        var tileSet = {
+		block: function(id) {
+			switch (id) {
+				case 0:
+					return {
+						nm: "Chão",
+						id: 0,
+						b_height: 96,
+						b_width: 96,
+					}
+				case 1:
+					return {
+						nm: "Parede",
+						id: 1,
+						b_height: 96,
+						b_width: 96,
+					}
+				case 2:
+					return {
+						nm: "Error",
+						id: 2,
+						b_height: 35,
+						b_width: 96,
+					}
+			}
+		}
+    }
+    console.log(tileSet.block(0).nm)
+    </script>
+</body>
+</html>

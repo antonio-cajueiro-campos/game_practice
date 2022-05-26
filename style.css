@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    background: #555;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+
+.title {
+    font-size: 30px;
+    font-family: cursive;
+    padding: 0px 20px
+}
+
+.right {
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    font-family: cursive;
+    font-size:25px;
+
+}
+
+.tela {
+    width: 750px;
+    height: 700px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ccc;
+    border: outset 5px;
+    box-shadow: 7px 7px 15px #0008;
+}
+
+.modal {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.item {
+    color: gold;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.inventario {
+    border-radius: 5px;
+    padding: 0!important;
+    margin: 0!important;
+    
+}
+
+.invTitle {
+    position: relative;
+    left: -70px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+.itemInv {
+    height: 48px;
+    width: 48px;
+    margin: 5px;
+    background: #ccc;
+    border: black 2px solid;
+    display: inline-flex;
+}
+
+.itemInv > img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+.itemInv:hover {
+    cursor: pointer;
+    background: rgba(204, 204, 204, 0.459);
+}
+
+.swal2-content {
+    padding: 0!important;
+}
+.swal2-popup {
+    width: 280px!important;
+    padding: 10px 10px!important;
+    border: black 2px solid!important;
+}
